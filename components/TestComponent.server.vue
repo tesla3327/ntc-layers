@@ -1,10 +1,10 @@
 <template>
-  <div>Test component: {{ count }}</div>
+  <div>Test component (server rendered): {{ count }}</div>
 </template>
 
 <script setup lang="ts">
 const props = withDefaults(
-  defineProps<{ startingCount: number }>(),
+  defineProps<{ startingCount?: number }>(),
   {
     startingCount: 0,
   }

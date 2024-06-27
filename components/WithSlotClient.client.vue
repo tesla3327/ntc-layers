@@ -1,6 +1,5 @@
 <template>
   <div>
-    <div>Using slots (client):</div>
     <slot />
   </div>
 </template>

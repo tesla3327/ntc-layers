@@ -1,5 +1,10 @@
 <template>
-  <div>Client page: {{ count }}</div>
+  <h1>Client Page</h1>
+  <p>
+    This page is rendered entirely on the client. It is
+    wrapped in a <code>ClientOnly</code> component.
+  </p>
+  <p>Count: {{ count }}</p>
   <JustServer />
 </template>
 

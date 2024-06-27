@@ -1,13 +1,5 @@
 <template>
-  <div>
-    <div>Using nested slots:</div>
-    <WithSlot>
-      <slot />
-    </WithSlot>
-  </div>
+  <WithSlot>
+    <slot />
+  </WithSlot>
 </template>
-
-<script setup>
-// Can we access just islandContext or also the app context?
-// not documented on `ssrContext`
-</script>

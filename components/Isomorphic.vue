@@ -1,10 +1,14 @@
 <template>
-  <div>This is hydrated: {{ count }}</div>
+  <div>This is an isomorphic component: {{ count }}</div>
 </template>
 
 <script setup lang="ts">
+/**
+ * This is a regular Nuxt component that renders on the server and client.
+ * Used to demonstrate that the component is rehydrated on the client.
+ */
 const props = withDefaults(
-  defineProps<{ startingCount: number }>(),
+  defineProps<{ startingCount?: number }>(),
   {
     startingCount: 0,
   }

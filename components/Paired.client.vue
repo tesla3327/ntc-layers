@@ -4,7 +4,7 @@
 
 <script setup lang="ts">
 const props = withDefaults(
-  defineProps<{ startingCount: number }>(),
+  defineProps<{ startingCount?: number }>(),
   {
     startingCount: 0,
   }

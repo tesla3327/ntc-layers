@@ -1,6 +1,5 @@
 <template>
   <div>
-    <div>Using slots:</div>
     <slot />
   </div>
 </template>
